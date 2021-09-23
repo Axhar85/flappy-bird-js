@@ -1,8 +1,9 @@
 var charcter = document.getElementById("charcter");
 var block = document.getElementById("block");
 function jump(){
-    charcter.classList.add("animate")
+    
+    character.classList.add("animate")
     setTimeout(function(){
-        charcter.classList.remove("animate")
+        character.classList.remove("animate")
     },500);
 }
